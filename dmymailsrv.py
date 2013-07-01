@@ -1,5 +1,5 @@
 #!/usr/bin/python -tt
-# vi: expandtab ts=4 sw=4 sts=0
+# vi: ft=python et ts=4 sw=4 sts=0
 
 import os
 import sys
