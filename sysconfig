@@ -1,0 +1,3 @@
+MAILDIR="/var/lib/dmymail"
+
+OPTIONS="-d $MAILDIR -l -c"
