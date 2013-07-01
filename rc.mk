@@ -11,7 +11,7 @@ help:
 install:	install-bin install-initrc install-sysconfig setup-dir
 
 install-bin:
-	$(INSTALL) -c -m 755 -t /usr/sbin dmymailsrv
+	$(INSTALL) -c -m 755 dmymailsrv.py /usr/sbin/dmymailsrv
 
 install-initrc:
 	$(INSTALL) -c -m 755 initrc /etc/init.d/dmymailsrv

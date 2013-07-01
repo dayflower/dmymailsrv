@@ -10,7 +10,7 @@ help:
 install:	install-bin install-upstart install-default setup-dir
 
 install-bin:
-	$(INSTALL) -c -m 755 -t /usr/sbin dmymailsrv
+	$(INSTALL) -c -m 755 dmymailsrv.py /usr/sbin/dmymailsrv
 
 install-upstart:
 	$(INSTALL) -c -m 755 upstart.conf /etc/init/dmymailsrv.conf
